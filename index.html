@@ -61,19 +61,19 @@
             color: #4caf50;
             margin-bottom: 20px;
         }
-        section p {
+        section p, ul {
             font-size: 1.2rem;
             max-width: 800px;
             margin: 0 auto 20px;
             line-height: 1.8;
         }
-        .features {
+        .features, .infographic {
             display: flex;
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
         }
-        .feature {
+        .feature, .infographic-item {
             background-color: white;
             border-radius: 10px;
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -82,25 +82,9 @@
             max-width: 300px;
             flex: 1 1 300px;
         }
-        .feature img {
+        .feature img, .infographic-item img {
             width: 100px;
             margin-bottom: 20px;
-        }
-        .feature h3 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
-        .infographic {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .infographic img {
-            max-width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
         }
         footer {
             text-align: center;
@@ -129,23 +113,23 @@
     <section id="about">
         <h2>About PiggyBoar</h2>
         <p>PiggyBoar combines the fun of meme culture with the practicality of a Web3 savings platform. It’s designed to help you set financial goals, grow your savings, and earn rewards, all while having fun with the PiggyBoar community.</p>
-        <img src="https://via.placeholder.com/800x400" alt="About PiggyBoar">
+        <img src="images/about_piggyboar.png" alt="About PiggyBoar">
     </section>
     <section id="features">
         <h2>Features</h2>
         <div class="features">
             <div class="feature">
-                <img src="https://via.placeholder.com/100" alt="Feature 1">
+                <img src="images/feature1.png" alt="Save Smarter">
                 <h3>Save Smarter</h3>
                 <p>Set your goals and let PiggyBoar help you achieve them with ease.</p>
             </div>
             <div class="feature">
-                <img src="https://via.placeholder.com/100" alt="Feature 2">
+                <img src="images/feature2.png" alt="Earn Rewards">
                 <h3>Earn Rewards</h3>
                 <p>Stake your tokens and enjoy the benefits of growing your savings.</p>
             </div>
             <div class="feature">
-                <img src="https://via.placeholder.com/100" alt="Feature 3">
+                <img src="images/feature3.png" alt="Join the Fun">
                 <h3>Join the Fun</h3>
                 <p>Be part of a thriving community where saving is exciting and rewarding.</p>
             </div>
@@ -155,19 +139,37 @@
         <h2>Infographic</h2>
         <p>Discover how PiggyBoar works at a glance with this infographic:</p>
         <div class="infographic">
-            <img src="https://via.placeholder.com/300x400" alt="Step 1">
-            <img src="https://via.placeholder.com/300x400" alt="Step 2">
-            <img src="https://via.placeholder.com/300x400" alt="Step 3">
+            <div class="infographic-item">
+                <img src="images/infographic_step1.png" alt="Step 1">
+                <p>Step 1: Buy PiggyBoar Tokens</p>
+            </div>
+            <div class="infographic-item">
+                <img src="images/infographic_step2.png" alt="Step 2">
+                <p>Step 2: Set Your Financial Goals</p>
+            </div>
+            <div class="infographic-item">
+                <img src="images/infographic_step3.png" alt="Step 3">
+                <p>Step 3: Watch Your Savings Grow!</p>
+            </div>
         </div>
     </section>
     <section id="roadmap">
         <h2>Roadmap</h2>
         <p>Here’s what we have planned:</p>
         <ul>
-            <li><strong>Q1 2024:</strong> Token launch and community building.</li>
-            <li><strong>Q2 2024:</strong> Launch of the PiggyBoar savings platform.</li>
-            <li><strong>Q3 2024:</strong> Listings on major exchanges.</li>
-            <li><strong>Q4 2024:</strong> Integration with DeFi and NFT features.</li>
+            <li><strong>Q4 2024:</strong> Token launch and community building.</li>
+            <li><strong>Q1 2025:</strong> Launch of the PiggyBoar savings platform.</li>
+            <li><strong>Q2 2025:</strong> Listings on major exchanges.</li>
+            <li><strong>Q3 2025:</strong> Integration with DeFi and NFT features.</li>
+        </ul>
+    </section>
+    <section id="community">
+        <h2>Join the Community</h2>
+        <p>Become a part of the PiggyBoar family. Connect with us:</p>
+        <ul>
+            <li><a href="#">Telegram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Discord</a></li>
         </ul>
     </section>
     <footer>
